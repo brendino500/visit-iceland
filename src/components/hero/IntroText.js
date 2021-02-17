@@ -1,7 +1,7 @@
 export default function IntroText() {
   return (
-    <div className="box-content h-32 w-64">
-      <h3>
+    <div className="box-content">
+      <h3 className="w-5/6">
         ICELAND IS A COUNTRY OF EXTREME GEOLOGICAL CONTRASTS. WIDELY KNOWN AS
         “THE LAND OF FIRE AND ICE” ICELAND IS HOME TO SOME OF THE LARGEST
         GLACIERS IN EUROPE, AND SOME OF THE WORLD’S MOST ACTIVE VOLCANOES.
