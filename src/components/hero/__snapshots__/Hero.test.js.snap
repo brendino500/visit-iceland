@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero matches snapshot 1`] = `
+<div>
+  <img
+    alt="iceland19-min"
+    className="bject-none object-left-top absolute z-10 w-3/5"
+    src="https://i.ibb.co/vzq9dCS/iceland19-min.jpg"
+  />
+  <div
+    className="container mx-auto flex content-center justify-end "
+  >
+    <div
+      className="z-40"
+    >
+      <h1
+        className="text-7xl uppercase text-gray-300 font-serif content-center mt-48 mr-80 "
+      >
+        Visit Iceland
+      </h1>
+    </div>
+  </div>
+</div>
+`;
