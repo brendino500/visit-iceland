@@ -1,3 +1,4 @@
+import IntroText from './IntroText'
 import LandingPageText from './LandingPageText'
 
 export default function Hero() {
@@ -9,6 +10,7 @@ export default function Hero() {
         alt="iceland19-min"
       />
       <LandingPageText />
+      <IntroText />
     </div>
   )
 }

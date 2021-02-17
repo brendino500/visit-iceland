@@ -18,6 +18,8 @@
 
 ## Planning
 
+![Trello](https://i.ibb.co/M2Z1R8r/visit-iceland-trello.png)
+
 ## Features
 
 - Snapshot testing in Jest.
