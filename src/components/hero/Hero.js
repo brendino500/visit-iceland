@@ -1,12 +1,24 @@
+import { makeStyles } from '@material-ui/core/styles'
+
 import IntroText from './IntroText'
 import LandingPageText from './LandingPageText'
 
+const useStyles = makeStyles((theme) => ({
+  image: {
+    position: 'absolute',
+    width: 800,
+    zIndex: -1,
+    margin: -10,
+  },
+}))
+
 export default function Hero() {
+  const classes = useStyles()
   return (
     <>
-      <div className="flex flex-col">
+      <div>
         <img
-          className="bject-none object-left-top absolute z-0 w-3/5"
+          className={classes.image}
           src="https://i.ibb.co/vzq9dCS/iceland19-min.jpg"
           alt="iceland19-min"
         />

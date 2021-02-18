@@ -1,11 +1,24 @@
+import { Typography } from '@material-ui/core'
+import { makeStyles } from '@material-ui/core/styles'
+
+const useStyles = makeStyles((theme) => ({
+  container: {
+    display: 'flex',
+  },
+  title: {
+    fontSize: 60,
+    textTransform: 'uppercase',
+    fontFamiy: 'Barlow',
+    letterSpacing: 3,
+    textAlign: 'right',
+  },
+}))
+
 export default function LandingPageText() {
+  const classes = useStyles()
   return (
-    <div className="container mx-auto flex content-center justify-end ">
-      <div className="z-40">
-        <h1 className="text-7xl uppercase text-gray-300 font-serif content-center mt-48 mr-80 ">
-          Visit Iceland
-        </h1>
-      </div>
+    <div className={classes.container}>
+      <Typography className={classes.title}>Visit Iceland</Typography>
     </div>
   )
 }
