@@ -2,6 +2,7 @@ import { makeStyles } from '@material-ui/core/styles'
 
 import IntroText from './IntroText'
 import LandingPageText from './LandingPageText'
+import Triptych from './Triptych'
 
 const useStyles = makeStyles((theme) => ({
   image: {
@@ -26,6 +27,9 @@ export default function Hero() {
       </div>
       <div>
         <IntroText />
+      </div>
+      <div>
+        <Triptych />
       </div>
     </>
   )
