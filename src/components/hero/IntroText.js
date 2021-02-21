@@ -1,19 +1,25 @@
 import { makeStyles } from '@material-ui/core/styles'
 
 const useStyles = makeStyles((theme) => ({
+  container: {
+    display: 'flex',
+    alignContent: 'center',
+    justifyContent: 'center',
+  },
   text: {
-    fontSize: 60,
+    fontSize: 25,
     textTransform: 'uppercase',
-    fontFamiy: 'Barlow',
+    fontFamily: 'Barlow',
     letterSpacing: 3,
-    textAlign: 'right',
+    textAlign: 'center',
+    width: 900,
   },
 }))
 
 export default function IntroText() {
   const classes = useStyles()
   return (
-    <div className="box-content">
+    <div className={classes.container}>
       <h3 className={classes.text}>
         ICELAND IS A COUNTRY OF EXTREME GEOLOGICAL CONTRASTS. WIDELY KNOWN AS
         “THE LAND OF FIRE AND ICE” ICELAND IS HOME TO SOME OF THE LARGEST
