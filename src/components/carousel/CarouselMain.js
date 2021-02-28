@@ -6,13 +6,25 @@ import { makeStyles } from '@material-ui/core/styles'
 const useStyles = makeStyles((theme) => ({
   container: {
     marginTop: 200,
-    height: '60vh',
+    height: '80vh',
   },
   image: {
     height: '20em',
   },
   slideLayout: {
     display: 'flex',
+  },
+  titleContainer: {
+    display: 'flex',
+    justifyContent: 'center',
+    marginBottom: '4em',
+  },
+  title: {
+    fontFamily: 'Barlow',
+    fontSize: '2.2em',
+    textTransform: 'uppercase',
+    letterSpacing: 2,
+    fontWeight: 'bold',
   },
   textLayout: {
     marginLeft: '5em',
@@ -47,7 +59,7 @@ export default function CarouselMain() {
 
   return (
     <div className={classes.container}>
-      <div>
+      <div className={classes.titleContainer}>
         <Typography className={classes.title}>Get Inspired</Typography>
       </div>
       <Carousel
