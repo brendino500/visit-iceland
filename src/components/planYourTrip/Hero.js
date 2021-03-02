@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '1.6em',
     textTransform: 'uppercase',
     letterSpacing: 1,
+    textAlign: 'center',
   },
   title: {
     fontFamily: 'Barlow',
